@@ -5,106 +5,123 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mikhailo Resume</title>
+  <link  href="styles.css" rel="stylesheet"  />
 </head>
-<body>
-  <div style= "background-image:https://steamuserimages-a.akamaihd.net/ugc/961990043621332452/7F07EDC3C590FFA12641FE65C0647A2AD235FB56/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true">
+<body >
+ <div class="container">
+
+  
+    <div class="info">
+          <img  
+        src="DSC_0196.JPG"
+        alt="Аватар"
+        class="avatar"/>
+
+          <h1 >Михаил Шипачев</h1>
+          <p>Я являюсь курсантом <strong>Воронежского  института ФСИН России</strong></p>
+          <p>Я учусь на инженерном факультете, а так же увлекаюсь програмированием</p>
+
+          <h4>Социальные сети</h4>
+          
+            <a href="https://instagram.com/animetrill" target="_blank">Instagram</a>
+            |
+            <a href="https://vk.com/zzzayy" target="_blank">Vkontakte</a>
+          
+
+    </div>    
+
+    <div class="card bg-yellow">
+      <h2>Мои хобби</h2>
+      <ol class="list" >
+        <li>Инженер связист</li>
+        <li>Спорт: Плавание</li>
+        <li>Путешествия</li>
+      </ol>
+
   </div>
 
-  
-  <table cellspacing="15">
-<tr>
-    <td>
-      <img 
-      height="200"
-      src="DSC_0196.JPG"
-      alt="Аватар"/>
-    </td>
-    <td>
-      <h1>Михаил Шипачев</h1>
-      <em><p>Я являюсь курсантом <strong>Воронежского  института ФСИН России</strong></p>
-      <p>Я учусь на инженерном факультете, а так же увлекаюсь програмированием</p></em>
+    
+<div class="card bg-green">
+      <h2>Опыт работы</h2>
+      <table class="table">
+
+        <tr>
+          <th>Компания</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </tr>
+      <tr>
+        <td>Freelance</td>
+        <td>Software Engineer</td>
+        <td>2021-2022</td>
+      </tr>
+      <tr>
+        <td>Software Outsourcing Services</td>
+        <td>Lead fronted</td>
+        <td>2020-2021</td>
+      </tr>
+      <tr>
+        <td>TOGG</td>
+        <td>Handyman</td>
+        <td>2019-2020</td>
+      </tr>
+      </table>
       
-    </td>
-</tr>
-  </table>
+  </div>
+
+   
+
+
+<div class="card bg-aqua">
+      <h2>Мои работы</h2>
+      <a href="Мои работы.html">Посмотреть список</a>
+
+
+
+  </div>
+
+
+
+        <style>
+      P { word-spacing: 5px }
+        </style>
+
+    <h2>Связаться со мной</h2>
+    <form action="/">
+      <label for="name">Ваше имя:</label>
+    <input type="text" id="name"
+    placeholder="Введите ваше имя...">
+
+    <br >
+
+    <p>
+    <label for="Email">Ваш Email:</label>
+    <input type="email" id="Email"
+    placeholder="Введите Email...">
+    </p>
+    </style>
+
+    <br >
+
+    <label for="text">Ваше сообщение:</label>
+    <textarea id="text" rows="10" cols="30"></textarea>
+
+    <br>
+
+    <input type="submit" value="Связаться!">
+
+    </form>
   
+<div class="box-model">
 
-<hr>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
 
-<h2>Социальные сети</h2>
-<ul type="square">
-  <li><a href="https://instagram.com/animetrill" target="_blank">Instagram</a></li>
-  <li><a href="https://vk.com/zzzayy" target="_blank">Vkontakte</a></li>
-</ul>
-<hr>
-
-<h2>Мои хобби</h2>
-<ol >
-  <li>Инженер связист</li>
-  <li>Спорт: Плавание</li>
-  <li>Путешествия</li>
-</ol>
-<hr>
-<h2>Опыт работы</h2>
-<table border="1">
-
-  <tr>
-    <th>Компания</th>
-    <th>Должность</th>
-    <th>Год</th>
-  </tr>
-<tr>
-  <td>Freelance</td>
-  <td>Software Engineer</td>
-  <td>2021-2022</td>
-</tr>
-<tr>
-  <td>Software Outsourcing Services</td>
-  <td>Lead fronted</td>
-  <td>2020-2021</td>
-</tr>
-<tr>
-  <td>TOGG</td>
-  <td>Handyman</td>
-  <td>2019-2020</td>
-</tr>
-</table>
-<hr>
-
-<h2>Мои работы</h2>
-<a href="Мои работы.html">Посмотреть список</a>
-<hr>
-     <style>
-  P { word-spacing: 5px }
-     </style>
-
-<h2>Связаться со мной</h2>
-<form action="/">
-  <label for="name">Ваше имя:</label>
-<input type="text" id="name"
-placeholder="Введите ваше имя...">
-
-<br >
-
-<p>
-<label for="Email">Ваш Email:</label>
-<input type="email" id="Email"
-placeholder="Введите Email...">
-</p>
-</style>
-
-<br >
-
-<label for="text">Ваше сообщение:</label>
-<textarea id="text" rows="10" cols="30"></textarea>
-
-<br>
-
-<input type="submit" value="Связаться!">
-
-</form>
-
-
-
+    <div style="margin: bottom 500px; ;">
+    </div>
 </body>
 </html>
