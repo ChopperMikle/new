@@ -1,0 +1,41 @@
+body {
+background: fixed;
+color: aliceblue;
+background-image :url(https://demiart.ru/forum/journal_uploads12/j2406363_1557920014_1.jpg) ;
+font:  normal 16px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fit-picture {
+width: 300px;
+border-radius: 28px;
+box-shadow: 4px 4px 14px hwb(0 7% 43% / 0.4);
+}
+
+.name {
+    text-decoration-color: aliceblue;
+}
+h2 {
+    color: whitesmoke;
+    text-transform:unset;
+    padding-bottom: 20px;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    image-rendering: pixelated;
+    border-image-outset: 10px;
+}
+.table td{
+    padding-bottom: 75px;
+}
+table td {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.cena {
+    cursor: pointer;
+}
+
+
+
+
